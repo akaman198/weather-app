@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const cityInput = document.querySelector('.search-box input');
 
     const searchWeather = async () => {
-        const APIKey = 'YOUR API KEY';
+        const APIKey = '0e7010a9c77f26068ac5478c761cf4cb';
         const city = cityInput.value.toLowerCase();
 
         if (city === '') {
